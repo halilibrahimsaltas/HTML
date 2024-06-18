@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">,
+<style>table,th,td{
+    border-style:solid;
+    border-color: #1b7575;
+    border: "1";
+}</style>
+
 
 <head>
     <meta charset="UTF-8">
@@ -23,6 +29,7 @@
     8-a: link vermek için kullanılır tıklabilir yapar
     9-ol(ordinary list), ul(unordinry list)
     10-li list yapıyor ve başlarına nokta kouyuor
+    11- table: table => tr(satır)-td(coloumn)-th(tableheader)-rowspan-colspan
 
     -->
     
@@ -46,6 +53,32 @@
         </ol>
         
     </ol>
+
+    <table  style="width:15%">
+        <tr>
+            <th colspan="3">Product</th>
+        </tr>
+        <tr>   
+            <th>No</th>
+            <th>P.Name</th>
+            <th>P.Count</th>    
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Pen</td>
+            <td rowspan="3"> <center>50</center></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Book</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Dust</td>
+        </tr>
+
+    </table>
+    
 </body>
 
 </html>
